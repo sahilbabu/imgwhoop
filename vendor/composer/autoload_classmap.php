@@ -2045,4 +2045,11 @@ return array(
     'phpDocumentor\\Reflection\\DocBlock\\Tag\\VarTag' => $vendorDir . '/phpdocumentor/reflection-docblock/src/phpDocumentor/Reflection/DocBlock/Tag/VarTag.php',
     'phpDocumentor\\Reflection\\DocBlock\\Tag\\VersionTag' => $vendorDir . '/phpdocumentor/reflection-docblock/src/phpDocumentor/Reflection/DocBlock/Tag/VersionTag.php',
     'phpDocumentor\\Reflection\\DocBlock\\Type\\Collection' => $vendorDir . '/phpdocumentor/reflection-docblock/src/phpDocumentor/Reflection/DocBlock/Type/Collection.php',
+    'scss_formatter' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_compressed' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_crunched' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_formatter_nested' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_parser' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scss_server' => $vendorDir . '/leafo/scssphp/scss.inc.php',
+    'scssc' => $vendorDir . '/leafo/scssphp/scss.inc.php',
 );
