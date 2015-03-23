@@ -1,6 +1,6 @@
-<?php namespace App\Services;
+<?php namespace ImgWhoop\Services;
 
-use App\User;
+use ImgWhoop\User;
 use Validator;
 use Illuminate\Contracts\Auth\Registrar as RegistrarContract;
 

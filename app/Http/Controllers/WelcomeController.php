@@ -1,4 +1,4 @@
-<?php namespace App\Http\Controllers;
+<?php namespace ImgWhoop\Http\Controllers;
 
 class WelcomeController extends Controller {
 
@@ -30,7 +30,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('layouts.default-layout');
+		return view('auth.login');
                 
 	}
 

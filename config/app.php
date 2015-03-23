@@ -13,7 +13,7 @@ return [
 	|
 	*/
 
-	'debug' => env('APP_DEBUG'),
+	'debug' => true,
 
 	/*
 	|--------------------------------------------------------------------------
@@ -78,7 +78,7 @@ return [
 	|
 	*/
 
-	'key' => env('APP_KEY', 'SomeRandomString'),
+	'key' => 'xx4K1FZYL7yFcntAnW3CVwqr7gWe4217',
 
 	'cipher' => MCRYPT_RIJNDAEL_128,
 
@@ -139,11 +139,11 @@ return [
 		/*
 		 * Application Service Providers...
 		 */
-		'App\Providers\AppServiceProvider',
-		'App\Providers\BusServiceProvider',
-		'App\Providers\ConfigServiceProvider',
-		'App\Providers\EventServiceProvider',
-		'App\Providers\RouteServiceProvider',
+		'ImgWhoop\Providers\AppServiceProvider',
+		'ImgWhoop\Providers\BusServiceProvider',
+		'ImgWhoop\Providers\ConfigServiceProvider',
+		'ImgWhoop\Providers\EventServiceProvider',
+		'ImgWhoop\Providers\RouteServiceProvider',
 
 	],
 

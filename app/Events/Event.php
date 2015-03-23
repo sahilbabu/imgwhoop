@@ -1,4 +1,4 @@
-<?php namespace App\Events;
+<?php namespace ImgWhoop\Events;
 
 abstract class Event {
 
