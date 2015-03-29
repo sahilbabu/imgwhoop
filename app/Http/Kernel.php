@@ -27,6 +27,7 @@ class Kernel extends HttpKernel {
 		'auth' => 'ImgWhoop\Http\Middleware\Authenticate',
 		'auth.basic' => 'Illuminate\Auth\Middleware\AuthenticateWithBasicAuth',
 		'guest' => 'ImgWhoop\Http\Middleware\RedirectIfAuthenticated',
+                'csrf' => 'ImgWhoop\Http\Middleware\VerifyCsrfToken',
 	];
 
 }

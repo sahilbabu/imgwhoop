@@ -19,3 +19,19 @@ Route::controllers([
 	'auth' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
 ]);
+
+
+Route::group(['middleware' => 'auth'], function() {
+    
+    Route::get('/upload-image',array(
+        'as' => 'get-upload-image',
+        'uses' => 'ImageController@getImageUploadView'
+    ));
+    //CSRF protection
+    Route::group(['middleware' => 'csrf'], function() {
+        // Upload Image Post form
+        Route::post('/post-upload-image', array(
+              'as' => 'post-upload-image', 
+              'uses' => 'ImageController@postImageUpload' ));
+        });
+});
